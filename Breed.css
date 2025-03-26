@@ -1,0 +1,29 @@
+.breed-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .breed-card {
+    border: 1px solid #26a69a; /* Light teal border */
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .breed-card h2 {
+    color: #00796b; /* Teal */
+  }
+  
+  .breed-card p {
+    color: #37474f; /* Dark blue-gray */
+  }
+  
+  .breed-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
