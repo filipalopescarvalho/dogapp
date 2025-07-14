@@ -1,0 +1,28 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* light teal background */
+    color: #37474f; /* dark blue-gray text */
+  }
+  
+  a {
+    color: #0288d1; /* blue links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #0277bd;
+  }
+  
+  #root {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  

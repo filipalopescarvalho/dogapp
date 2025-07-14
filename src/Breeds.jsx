@@ -1,7 +1,6 @@
 import React from "react";
 import "./Breeds.css";
 
-
 const Breeds = () => {
   const breedInfo = [
     {
@@ -52,6 +51,4 @@ const Breeds = () => {
   );
 };
 
-export default function Breeds() {
-  return <div>Breeds Component Placeholder</div>;
-}
+export default Breeds;
